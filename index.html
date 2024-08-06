@@ -7,10 +7,38 @@
     <title>Rate Converter</title>
 </head>
 <body>
+
+    <style>
+        .loader{
+            border: 5px solid #ede;
+            border-right-color: deepskyblue;
+            width: 20px;
+            height: 20px;
+            border-radius: 100%;
+            animation: spin 300ms infinite linear ;
+            transform: rotate(0deg);
+        }
+
+        @keyframes spin{
+            0%{
+                transform: rotate(0deg)
+            }
+            100%{
+                transform: rotate(360deg)
+            }
+        }
+    </style>
     <header>
         <h1>Rate Converter</h1>
     </header>
 
-    <script src="js/config.js" type="module"></script>
+   
+
+
+    <script src="app/env.js"></script>
+    <script src="app/prefab.js"></script>
+    <script src="app/list-assets.js">
+
+    </script>
 </body>
 </html>
